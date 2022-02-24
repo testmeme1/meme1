@@ -1,0 +1,221 @@
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 6% 25%;
+}
+
+.btn-div {
+  padding-bottom: 5%;
+}
+
+
+/* Color of Sections */
+
+.white-section{
+  background-color: #fff;
+}
+
+.color-section {
+  background-color: #398AB9;
+  color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+
+/* Title Image */
+
+.title-img-description
+{
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: right;
+}
+.asml-img {
+  max-width: 25%;
+  position: absolute;
+  right: 17%;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 5% 3% 0;
+}
+
+
+/* Features Section*/
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-container {
+  line-height: 1.5;
+}
+
+.feature_single_container {
+  padding: 0 5%;
+}
+
+.i-features {
+  font-size: 450%;
+  color: #1C658C;
+  margin-bottom: 1rem;
+}
+
+.i-features:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section*/
+
+#testimonials {
+  background-color: #1C658C;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section*/
+
+#press {
+  background-color: #1C658C;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section*/
+
+#pricing {
+  padding: 100px;
+}
+
+.price-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card {
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 2% 2%;
+}
+
+
+/* Call to action Section*/
+
+.cta-text {
+  font-size: 3.5rem;
+}
+
+
+/* Footer Section*/
+
+#footer {
+}
+
+#footer .container-fluid {
+  padding: 6% 25% 2%;
+}
+
+.ft-logo {
+  padding: 0 1% 1%;
+}
+
+
+
+@media (max-width: 1575px) {
+  #title {
+    text-align: center;
+  }
+  
+  .asml-img {
+    position: static;
+    width: 0%;
+  }
+  
+  .title-img-description
+  {
+    font-size: 0;
+    color: #fff;
+    text-align: center;
+  }
+}
